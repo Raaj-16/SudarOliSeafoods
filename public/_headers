@@ -1,0 +1,11 @@
+/*
+  Deploy this file with the static build on Netlify, Cloudflare Pages, or a
+  compatible host. The production reverse proxy must also redirect HTTP to HTTPS.
+*/
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+*/
