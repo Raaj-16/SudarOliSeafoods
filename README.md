@@ -1,3 +1,5 @@
+# Sudaroli-SeaFoods
+
 This is the Sudar Oli Dry Sea Foods storefront and admin application, built with Next.js, Prisma, and PostgreSQL.
 
 ## Local development
