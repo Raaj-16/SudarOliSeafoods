@@ -19,8 +19,6 @@ Copy `.env.example` to `.env.local` for local development or set equivalent serv
 - `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, and `GOOGLE_REDIRECT_URI`: Google sign-in configuration for administrator accounts.
 - `RESEND_API_KEY`, `AUTH_EMAIL_FROM`, and `AUTH_BASE_URL`: required to register customer email/password accounts, verify email addresses, and send password reset links. The sender must be verified with Resend; `AUTH_BASE_URL` must be the exact public site origin.
 - `BLOB_READ_WRITE_TOKEN`: required for administrator image uploads.
-- Optional Meta WhatsApp notifications use `WHATSAPP_ACCESS_TOKEN`, `WHATSAPP_PHONE_NUMBER_ID`, `WHATSAPP_NOTIFICATION_NUMBER`, an approved submission template, and `NOTIFICATION_DISPATCH_SECRET`.
-
 Never expose secrets through `NEXT_PUBLIC_` variables or commit them to source control. The WhatsApp number used to open customer enquiries is managed separately in Admin → Store settings.
 
 ## Database setup

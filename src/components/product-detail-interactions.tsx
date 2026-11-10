@@ -57,7 +57,7 @@ export function ProductDetailInteractions({ product, related, whatsappNumber }: 
           <div>
             <div className="pdp-gallery-main">
               <span className={`badge ${imageBadgeClass}`}>{availability.badge}</span>
-              {product.image ? <Image src={product.image} alt={product.name} width={720} height={720} /> : <span className="empty-product-image" aria-hidden="true">{product.name.slice(0, 1)}</span>}
+              {product.image ? <Image src={product.image} alt={product.name} width={720} height={720} preload /> : <span className="empty-product-image" aria-hidden="true">{product.name.slice(0, 1)}</span>}
             </div>
           </div>
           <div>
